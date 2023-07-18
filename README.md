@@ -21,6 +21,19 @@ __Goal 4:__ Predict from neural activity (real data & generated artificial data)
 
 Use MLP to decode animal's responses from neural data: https://github.com/kkke/NeuroMatch_Project/blob/main/Copy_of_load_steinmetz_decisions.ipynb
 
+Other ideas that can be implemented: 
+
+Technical stuff 
+1) Use validation dataset, regularization, hyperparameter tuning by Bayesian Optimization (if its applicable) etc. 
+2) RNN performance comparison with Multi-layer perceptron 
+3) Check this for implementing RNN (LSTM) with Pytorch and Lightning:https://www.youtube.com/watch?v=RHGiXPuo_pI&ab_channel=StatQuestwithJoshStarmer 
+
+Domain related stuff
+1) Use particular time interval that is relevant to the decision making of the mice
+2) Compare across brain regions
+3) Try dat[‘feedback_type’] for correct vs incorrect responses: -1 for negative feedback (white noise burst); +1 for positive feedback (water reward delivery)
+4) Can try with LFP data, if there’s time
+5) Also here’s some useful info about Poisson distribution assumption for neural firing: Why do we use poisson process for neural firing? https://biology.stackexchange.com/questions/56679/why-poisson-process-for-neural-firing
 
 
 Goal 5: “latent dynamic from RNN, could it be used to predict behaviors?”
