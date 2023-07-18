@@ -5,22 +5,21 @@ We can enter our results for each modeling step we take.
 
 ## Step 1: Define question/goal of project
 Note: select dataset compatible with deep learning.
-### Goal 1: Predict from one emsemble neural activity (same session) to other emsemble neural activity (same session) focusing on one trial type;
+ Goal 1: Predict from one emsemble neural activity (same session) to other emsemble neural activity (same session) focusing on one trial type;
 Can test whether it generalize to other trial types: From one trial type to other trial types; 
 Prediction accuracy
 
-### Goal 2: Repeat goal 1 with each trial types
+ Goal 2: Repeat goal 1 with each trial types
 “Find a way to get insights where generalizaiton works or not ”
 Scratch thoughts: check the latent dynamic
 
 
-### Goal 3: Repeat goal 1 with all trial types combined
+ Goal 3: Repeat goal 1 with all trial types combined
 Test whether the predicition accuracy comprised or not.
 
-### Goal 4: Predict from neural activity (real data & generated artificial data) to animal’s behaviors (reaction time, pupil size, et al) or trial types (left, right, correct, error)
-##########################
-##########################
-Use MLP to decode animal's responses from neural data: check Copy_of_load_steinmetz_decisions.ipynb 
+ Goal 4: Predict from neural activity (real data & generated artificial data) to animal’s behaviors (reaction time, pupil size, et al) or trial types (left, right, correct, error)
+
+Use MLP to decode animal's responses from neural data: 
 
 
 
