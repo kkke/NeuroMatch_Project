@@ -73,3 +73,4 @@ https://compneuro.neuromatch.io/_images/WorkingMemoryAttractorModels.svg
 
 Extracting computational mechanisms from neural data using low-rank RNNs
 https://pillowlab.princeton.edu/pubs/Valente22neurips_lowrankRNNs.pdf
+Github scripts: https://github.com/adrian-valente/lowrank_inference/
