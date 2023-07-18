@@ -19,7 +19,7 @@ Test whether the predicition accuracy comprised or not.
 
  Goal 4: Predict from neural activity (real data & generated artificial data) to animal’s behaviors (reaction time, pupil size, et al) or trial types (left, right, correct, error)
 
-Use MLP to decode animal's responses from neural data: 
+Use MLP to decode animal's responses from neural data: https://github.com/kkke/NeuroMatch_Project/blob/main/Copy_of_load_steinmetz_decisions.ipynb
 
 
 
