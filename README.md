@@ -23,7 +23,7 @@ Use MLP to decode animal's responses from neural data: https://github.com/kkke/N
 
 
 
-### Goal 5: “latent dynamic from RNN, could it be used to predict behaviors?”
+Goal 5: “latent dynamic from RNN, could it be used to predict behaviors?”
 
 ## Step 2: Literature review summary (put links in links doc)
 
@@ -47,4 +47,5 @@ https://neuronaldynamics.epfl.ch/online/Ch16.S2.html
 
 https://compneuro.neuromatch.io/_images/WorkingMemoryAttractorModels.svg
 
+Extracting computational mechanisms from neural data using low-rank RNNs
 https://pillowlab.princeton.edu/pubs/Valente22neurips_lowrankRNNs.pdf
