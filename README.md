@@ -8,6 +8,7 @@ Note: select dataset compatible with deep learning.
 
 The current dataset we are working with: Steinmetz dataset: https://compneuro.neuromatch.io/projects/neurons/README.html. 
 Data collected using electrophysiology recordings by Dr. Nick Steinmetz…here’s the video description of the data: https://www.youtube.com/watch?v=WXn4-FpVaOo&ab_channel=NeuromatchAcademy
+Steinmetz notebook: https://github.com/NeuromatchAcademy/course-content/blob/main/projects/neurons/load_steinmetz_decisions.ipynb
 
 
  Goal 1: Predict from one emsemble neural activity (same session) to other emsemble neural activity (same session) focusing on one trial type;
