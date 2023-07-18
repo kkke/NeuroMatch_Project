@@ -40,7 +40,7 @@ Pitfall: some neurons are specialists for each trial types, while some may be ge
 Animal’s behaviors could be predicted by neural activity?
 
 
-Usefull links:
+# Useful links:
 Sequence Classification with LSTM Recurrent Neural Networks in Python with Keras
 https://machinelearningmastery.com/sequence-classification-lstm-recurrent-neural-networks-python-keras/
 
