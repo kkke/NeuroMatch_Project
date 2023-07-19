@@ -1,13 +1,20 @@
 ## Project links
 Useful links for the project.
 
+### Other approaches
+| What others have done with Steinmetz |  |
+| --- | --- |
+| [NMA mapping brain networks 2020](https://github.com/Debu922/NMA_Mapping_Brain_Networks_2020) | Exploratory project to interpret electrophysiological data from the Steinmetz et al. 2019 dataset. A part of the Neuromatch Academy Summer School. |
+| [Hidden Markov Model](https://github.com/NMA2022Chaosfan/HMM_SteinmetzDataset) | A project for NMA_CN _2022 by Chaosfan group, which is using HMM to explore Steinmetz Dataset.  |
+| [NMA Some Possible Projects](https://docs.google.com/presentation/d/1WAHfJcBPM4rmwwvreAAS92sRYtltJRwklxH-82NzCYo/preview?pru=AAABc3cRwPE*S0Y87T5BNFvf9wvSREdLUQ&slide=id.p) | Pages 7, 10, 12, 19  |
+
 ### Datasets
-| Dataset links |  |
+| Datasets |  |
 | --- | --- |
 | [Steinmetz dataset](https://compneuro.neuromatch.io/projects/neurons/README.html) | Data collected using electrophysiology recordings by Dr. Nick Steinmetz |
 
 ### Project background
-| Project background links |  |
+| Project background |  |
 | --- | --- |
 | [Focus on what matters: inferring low-dimensional dynamics from neural recordings](https://deeplearning.neuromatch.io/projects/Neuroscience/neuro_seq_to_seq.html) | The project background notebook we started with |
 | [Spiking Neuron Predictions Vignette](https://youtube.com/watch?v=CC4gMRrE31g) | From Convnets And Dl Thinking (W2D2), video 2 |
