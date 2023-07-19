@@ -4,7 +4,7 @@ Useful links for the project.
 ### Datasets
 | Dataset links |  |
 | --- | --- |
-| [link to dataset here]() | Description of dataset |
+| [Steinmetz dataset](https://compneuro.neuromatch.io/projects/neurons/README.html) | Data collected using electrophysiology recordings by Dr. Nick Steinmetz |
 
 ### Project background
 | Project background links |  |
