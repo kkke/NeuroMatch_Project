@@ -9,7 +9,7 @@ Useful links for the project.
 ### Project background
 | Project background links |  |
 | --- | --- |
-| [Focus on what matters: inferring low-dimensional dynamics from neural recordings](https://deeplearning.neuromatch.io/projects/Neuroscience/neuro_seq_to_seq.html) | Our project background notebook |
+| [Focus on what matters: inferring low-dimensional dynamics from neural recordings](https://deeplearning.neuromatch.io/projects/Neuroscience/neuro_seq_to_seq.html) | The project background notebook we started with |
 | [Spiking Neuron Predictions Vignette](https://youtube.com/watch?v=CC4gMRrE31g) | From Convnets And Dl Thinking (W2D2), video 2 |
 | [Spiking Neuron Predictions Set-up](https://youtube.com/watch?v=vJ7MixhmDh8) | From Convnets And Dl Thinking (W2D2), video 3 |
 | [How can an ANN know its uncertainty](https://youtube.com/watch?v=b2N2OJ2u4AM) | From Convnets And Dl Thinking (W2D2), video 5 |
