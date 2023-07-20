@@ -15,7 +15,9 @@ Stores previous docs from Google Drive converted to markdown format.
 Stores reference links with a description of the purpose of the link in a markdown file. We could put all the links in one file, or use multiple files for datasets, research and topic when the single file becomes too unwieldy.
 
 ### notebooks
-Stores raw experimental notebooks that we've used in developing dataset cleaning and augmentation, spike sorting/preconditioning, training stages and results, etc. Here we document why the notebook was created, how we went about teasing out the why and a summary of results which we expect our target audience to understand. We're not just writing for our purposes but also for those who read it later.
+Stores a notebook template which loads the Steinmetz dataset and indexes it in a variety of ways. Raw experimental notebooks, derived from the notebook template, are used in developing training stages and results, etc. 
+
+Here we save and document why the notebook was created, how we went about teasing out the why, and a summary of results which we expect our target audience to understand. We're not just writing for our purposes, but also for those who read it later -- unless, of course, we just did a quick and dirty test that doesn't need to be kept.
 
 ### notebooks/deprecated
 Stores notebooks which won't be used going further in the project. For example, this is the new home of `inferring low-dimensional dynamics.ipynb`.
