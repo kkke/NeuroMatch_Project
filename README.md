@@ -10,20 +10,17 @@ The current dataset we are working with: Steinmetz dataset: https://compneuro.ne
 Data collected using electrophysiology recordings by Dr. Nick Steinmetz…here’s the video description of the data: https://www.youtube.com/watch?v=WXn4-FpVaOo&ab_channel=NeuromatchAcademy
 Steinmetz notebook: https://github.com/NeuromatchAcademy/course-content/blob/main/projects/neurons/load_steinmetz_decisions.ipynb
 
-
- Goal 1: Predict from one emsemble neural activity (same session) to other emsemble neural activity (same session) focusing on one trial type;
-Can test whether it generalize to other trial types: From one trial type to other trial types; 
-Prediction accuracy
-
- Goal 2: Repeat goal 1 with each trial types
-“Find a way to get insights where generalizaiton works or not ”
-Scratch thoughts: check the latent dynamic
-
-
- Goal 3: Repeat goal 1 with all trial types combined
-Test whether the predicition accuracy comprised or not.
-
-__Goal 4:__ Predict from neural activity (real data & generated artificial data) to animal’s behaviors (reaction time, pupil size, et al) or trial types (left, right, correct, error)
+__Goal:__ Decode animal's behaviors (reaction time, pupil size, responses, feedback, et al) from neural data:
+ 1) data preparation: alldata, data for specific brain regions
+    - Ke Chen, 
+ 2) build MLP, RNN models
+    - Dev, Ke (MLP), Arjun (LSTM), Raymond, Mohammad (RNN),
+ 3) tuning hyperparameters to check model performance
+    - Dev, Ke (MLP), Arjun, Raymond, Mohammad (RNN),
+ 4) Performance evaluation, sensitivity, AUC, Accuracy, R^2, Confusion Matrix
+    - Dev, Ke, Arjun, Raymond, Mohammad,
+ 5) Try different loss function to choose the best one.
+    - Dev, Ke, Arjun, Raymond, Mohammad,
 
 Use MLP to decode animal's responses from neural data: https://github.com/kkke/NeuroMatch_Project/blob/main/Copy_of_load_steinmetz_decisions.ipynb
 
@@ -42,7 +39,17 @@ Domain related stuff
 5) Also here’s some useful info about Poisson distribution assumption for neural firing: Why do we use poisson process for neural firing? https://biology.stackexchange.com/questions/56679/why-poisson-process-for-neural-firing
 
 
-Goal 5: “latent dynamic from RNN, could it be used to predict behaviors?”
+~~_Goal 1: Predict from one emsemble neural activity (same session) to other emsemble neural activity (same session) focusing on one trial type;
+Can test whether it generalize to other trial types: From one trial type to other trial types;_~~ 
+
+~~_Goal 2: Repeat goal 1 with each trial types;
+“Find a way to get insights where generalizaiton works or not ”
+Scratch thoughts: check the latent dynamic_~~
+
+~~_Goal 3: Repeat goal 1 with all trial types combined_
+_Test whether the predicition accuracy comprised or not._~~
+
+~~_Goal 5: “latent dynamic from RNN, could it be used to predict behaviors?”_~~
 
 ## Step 2: Literature review summary (put links in links doc)
 
