@@ -1,0 +1,14 @@
+I'll try my best to answer Mohammad's question here in the chat.
+
+---------------- Model Building ------------
+1. I initially began with a small LSTM layer (about 20 hidden units) and checked the test accuracy.
+
+2. I saw it was pretty low, so I increased the number of units to 50. I saw an increase in test accuracy. I then tried to increase it to 100 but did not see any major changes.
+
+3. I then put in a few dense (Linear) layers after the LSTM and saw minor improvements and let it be.
+
+------------ Training ----------------
+
+1. I began with a small batch size of 10 and an initial 20 epochs. I saw the numbers (loss, accuracy) were pretty bad so I increased the batch size to 40 to have more variance. The numbers improved.
+
+2. I then played around with the number of epochs 20, 50, 100 and see the model overfitting pretty much after the 80 epoch mark. So I stick to 50
